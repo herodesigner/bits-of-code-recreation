@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-compatible" content="ie=edge">
+    <title>bits of code </title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,600,700&subset=latin,latin-ext'
+        rel='stylesheet' type='text/css'>
+</head>
+<body>
+    <header class="site_header">
+        <div class="wrapper">
+            <a href="#overlay" class="site_nav_open" onclick="openNav()">
+                <i class="fa fa-bars" id="nav_icon"></i>
+            </a>
+      
+            <h1 class="title"><a href="bits of code recreation.html">bits of code</a></h1>
+            
+            <a href="search.html" class="search_icon">
+                <i class="fa fa-search"></i>
+            </a>
+        </div>
+    </header>
+
+    <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+          <a href="bits of code recreation.html" class="home">Home</a>
+          <a href="#">Your Saved Articles</a>
+          <a href="#">Subscribe</a>
+          <a href="#">Other Writing</a>
+        </div>
+    </div>
+
+    <script>
+        function openNav() {
+          document.getElementById("myNav").style.width = "100%";
+          document.getElementById('nav_icon').style.backgroundColor='#93c2e9';
+        }
+        
+        function closeNav() {
+          document.getElementById("myNav").style.width = "0%";
+        }
+    </script>
+
+    <div class="content">
+        <div class="wrapper">
+            <main class="mainsite">
+                <section>
+                    <article class="articlex">
+                        <header class="h_article">
+                            <h2 class="h_title"><a href= "/chrome-dev-summit-2020/">Highlights from Chrome Dev Summit 2020</a></h2>
+                            <div class="data">
+                                <i>Dec 14, 2020 <span class="dot"></span><a href="/tag/conference/">conference</a></i>
+                            </div>
+                        </header>    
+                            <p>CDS in 2020 was a bit different, like everything else. It was online, and the talks were more bite-sized
+                                at roughly 10 minutes each. I really enjoyed this new style of the summit and, while I missed the
+                                in-person aspects of the conference, this was a great way to end...</p>
+                    </article>
+                    <article class="articlex">
+                        <header class="h_article">
+                            <h2 class="h_title"><a href= "/what-i-wish-i-knew-about-react/">What I wish I knew about React</a></h2>
+                            <div class="data">
+                                <i>Apr 28, 2020 <span class="dot"></span><a href="/tag/react/">react</a></i>
+                            </div>
+                        </header>    
+                            <p>A couple weeks ago I started working on my first React application. Not only was it my first React
+                                application, but it was also my first React Native application, so a lot was new to me all in one go.
+                                Coming from the Angular (and Ionic) world, it felt like......</p>
+                    </article>
+                    <article class="articlex">
+                        <header class="h_article">
+                            <h2 class="h_title"><a href= "/how-i-created-488-live-images/">How I created 488 "live images"</a></h2>
+                            <div class="data">
+                                <i>Nov 26, 2019 <span class="dot"></span><a href="/tag/javascript/">javascript</a></i>
+                            </div>
+                        </header>    
+                            <p>I've recently been going down a rabbit hole of making improvements to my CanIUse embed. To give a bit of
+                                a background, it is an interactive embed I created to easily embed data from caniuse.com in my blog
+                                posts and anywhere else. I previously wrote about how I first...</p>
+                    </article>
+                    <article class="articlex">
+                        <header class="h_article">
+                            <h2 class="h_title"><a href= "/chrome-dev-summit-2020/">Highlights from Chrome Dev Summit 2019</a></h2>
+                            <div class="data">
+                                <i>Nov 18, 2019 <span class="dot"></span><a href="/tag/conference/">conference</a></i>
+                            </div>
+                        </header>    
+                            <p>I’ve been going to Chrome Dev Summit for a couple of years now (2016 & 2018) and I always like to do this
+                                roundup article, highlighting what I thought were the most interesting ideas and projects from the
+                                conference. So let’s get into it! HTML is (finally) getting...</p>
+                    </article>
+                    <article class="articlex_m">
+                        <header class="h_article">
+                            <h2 class="h_title"><a href= "/chrome-dev-summit-2020/">How to use Puppeteer in a Netlify (AWS Lambda) function</a></h2>
+                            <div class="data">
+                                <i>Oct 28, 2019<span class="dot"></span><a href="/tag/javascript/">javascript</a></i>
+                            </div>
+                        </header>    
+                            <p>I recently gave a talk at JAMstack_conf San Francisco about how I used headless chrome (via Puppeteer)
+                                and Cloudinary to capture screenshots of my interactive caniuse embed. I did this to have a fallback
+                                image to use in case the embed couldn’t be loaded, for example in cases...</p>
+                    </article>
+                </section>
+                <section>
+                    <div class="writeup">
+                        <h2 class="h3"> Subscribe to the Newsletter</h2>
+                      <p class="form_description"> Receive quality articles written by Ire Aderinokun,frontend developer and user interface designer.
+                      </p>
+                      <form class="field">
+                          <label for="email"></label>
+                          <input type="text" class="field_input" placeholder="Email Address*" name="email" id="email" required>
+          
+                          <label for="name"></label>
+                          <input type="text" placeholder="First Name*" name="fname" id="email" required>
+          
+                          <label for="subscribe"></label>
+                          <input type="text" placeholder="Subscribe" name="subscribe" id="subscribe">
+                      </form>
+                      </div>
+                </section>
+                <div class="pagination">
+                    <span class="pagination_older">Page 1 of 31</span>
+                    <a class="pagination__older" href="/page/2/"> Older &#8594 </a>
+                </div>
+            </main>
+            <aside class="sidebar">
+                <div class=container2>
+                    <p> <strong>bitsofcode.</strong> Articles on frontend development and more.</p>
+                    <p> All articles are written by <u>Ire Aderinokun</u> frontend developer and user interface designer.</p>
+        
+                    <div id="widget">
+                        <a class="btn" title="follow@ireaderinokun "
+                            href="https://twitter.com/intent/follow?original_referer=https%3A%2F%2Fbitsofco.de%2F&ref_src=twsrc%5Etfw&screen_name=ireaderinokun&tw_p=followbutton">
+                            <span class="label" id="label_p"><i class="fa fa-twitter" id="label_twitter"></i>Follow @ireaderinokun</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class=container2>
+                    
+                </div>
+
+                <div class="socials">
+                    <a href="https://bitsofco.de/rss" class="fa fa-rss"></a>
+                    <a href="https://twitter.com/bitsofcode" class="fa fa-twitter"></a>
+                    <a href="https://www.facebook.com/bitsofcodeblog" class="fa fa-facebook-square"></a>
+                    <a href="https://www.youtube.com/c/bitsofcode" class="fa fa-youtube"></a>
+                                   
+                </div>
+            </aside>
+        </div>
+    </div>
+    <footer class="site_footer">
+        <div class="wrapper">
+            <p class="footer_note"><i>All articles written with ❤ by <a href="https://www.ireaderinokun.com/"></a>Ire Aderinokun</i></p>
+        
+        <div class="navbar" id="myNavbar">
+            <a href="https://bitsofco.de/">Home</a>
+            <span class="dot"></span>
+            <a href="https://bitsofco.de/saved/">Your Saved Article</a>
+            <span class="dot"></span>
+            <a href="https://bitsofco.de/subscribe/">Subscribe</a>
+            <span class="dot"></span>
+            <a href="https://bitsofco.de/other-writing/">Other Writing</a>
+        </div>    
+        </div>    
+    </footer>
+</body>
+</html>

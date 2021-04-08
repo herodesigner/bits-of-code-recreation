@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-compatible" content="ie=edge">
+    <title>bits of code </title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,600,700&subset=latin,latin-ext'
+        rel='stylesheet' type='text/css'>
+</head>
+<body>
+    <header class="site_header">
+        <div class="wrapper">
+            <a href="#overlay" class="site_nav_open" onclick="openNav()">
+                <i class="fa fa-bars"></i>
+            </a>
+
+            <h1 class="title"><a href="bits of code recreation.html">bits of code</a></h1>
+            
+            <a href="search.html" class="search_icon">
+                <i class="fa fa-search"></i>
+            </a>
+        </div>
+    </header>
+    <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+          <a href="bits of code recreation.html" class="home">Home</a>
+          <a href="#">Your Saved Articles</a>
+          <a href="#">Subscribe</a>
+          <a href="#">Other Writing</a>
+        </div>
+    </div>
+
+    <script>
+        function openNav() {
+          document.getElementById("myNav").style.width = "100%";
+        }
+        
+        function closeNav() {
+          document.getElementById("myNav").style.width = "0%";
+        }
+    </script>
+
+
+    <div class="content">
+        <div class="wrapper">
+            <main class="mainsite">
+                <section>
+                    <article class="article">
+                        <header class="h_article">
+                            <h1 class="search_title">Search</h1>
+                        </header>    
+                            <div>
+                                <form class="search_form"> 
+                                    <input type="search" id="query"  class="search_input" name="q" placeholder="What are you looking for?" method="get">
+                                </form>
+                            </div>
+                            <span class="search_message">Use the <a href="#search-results">search form</a> above to search for articles.</span>
+                    </article>
+                </section>
+                <section id="search-results" class="m-t-lg" role="region">
+                </section>
+            </main>
+            <aside class="sidebar">
+                <div class=container2>
+                    <p> <strong>bitsofcode.</strong> Articles on frontend development and more.</p>
+                    <p> All articles are written by <u>Ire Aderinokun</u> frontend developer and user interface designer.</p>
+        
+                    <div id="widget">
+                        <a class="btn" title="follow@ireaderinokun "
+                            href="https://www.ireaderinokun.com/">
+                            <span class="label" id="label_p">Follow @ireaderinokun</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class=container2>
+                    
+                    
+                </div>
+
+                <div class="socials">
+                    <a href="https://bitsofco.de/rss" class="fa fa-rss"></a>
+                    <a href="https://twitter.com/bitsofcode" class="fa fa-twitter"></a>
+                    <a href="https://www.facebook.com/bitsofcodeblog" class="fa fa-facebook-square"></a>
+                    <a href="https://www.youtube.com/c/bitsofcode" class="fa fa-youtube"></a>
+                                   
+                </div>
+            </aside>
+        </div>
+    </div>
+    <footer class="site_footer">
+        <div class="wrapper">
+            <p class="footer_note"><i>All articles written with ❤ by <a href="https://www.ireaderinokun.com/"></a>Ire Aderinokun</i></p>
+        
+        <div class="navbar" id="myNavbar">
+            <a href="https://bitsofco.de/">Home</a>
+            <span class="dot"></span>
+            <a href="https://bitsofco.de/saved/">Your Saved Article</a>
+            <span class="dot"></span>
+            <a href="https://bitsofco.de/subscribe/">Subscribe</a>
+            <span class="dot"></span>
+            <a href="https://bitsofco.de/other-writing/">Other Writing</a>
+        </div>    
+        </div>    
+    </footer>
+</body>
+</html>
